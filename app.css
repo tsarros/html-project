@@ -1,0 +1,738 @@
+@font-face{
+    font-family: ProximaNova;
+    src: url(./fonts/ProximaNovaRegular.otf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: ProximaNova;
+    src: url(./fonts/ProximaNovaBold.otf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: SourceSansPro;
+    src: url(./fonts/SourceSansPro-Regular.ttf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: SourceSansPro;
+    src: url(./fonts/SourceSansPro-Bold.ttf);
+    font-weight: bold;
+}
+
+body{
+    margin: 0%;
+    font-family: 'SourceSansPro',serif;
+    background-color:#F8F8F8 ;
+    
+}
+header{
+    background:url('./images/bg.png') bottom center no-repeat ;
+    background-size: cover;
+    height: 750px;
+}
+#topbar{
+    height:  70px;
+}
+nav#main{
+    height: 60px;
+    background: white; 
+    border-radius: 4px; 
+    position: relative;
+}
+
+
+
+#topbar h21{
+    position: absolute;
+    height: 15px;
+    left: 30.59%;
+    margin-top: 15px;
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+#topbar h22{
+    position: absolute;
+    height: 32px;
+    left: 29.59%;
+    margin-top: 24px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.container{
+    width: 1360px;
+    margin: 0 auto;
+}
+#main-menu{
+    margin: 0;
+    padding: 0 40 0 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    height: 60px;
+
+}
+
+#logo{
+    position: absolute;
+    display: block;
+    border: 10px solid #9F0525;
+    border-radius: 100%;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+  
+   
+    
+}
+#logo img{
+    display: block;
+}
+
+#main-menu a {
+    color: #002868 ;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main-menu li{
+    
+    color: #002868 ;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#main-menu a{
+    color: #002868 ;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main-menu a:hover{
+    color: #BF0A30;
+}
+#main-menu li ul{
+    background: #FFFFFF;
+    display: none;
+    float: none;
+}
+#main-menu li ul li{
+    float:none;
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+#main-menu li:hover ul{
+    display:block
+}
+
+
+#featured{
+    background: url(./images/circle.png) 0 0 no-repeat;
+    background-size: 100% 100% ;
+    width: 410px;
+    height: 410px;
+    margin: 70px auto 0;
+    border: 6px solid white;
+    border-radius: 100%;
+    box-shadow: 0 0 40px rgba(0, 0, 0 , 0.25 ); 
+    text-align: center;
+    color: white;
+    padding: 40px;
+
+
+}
+#featured h3{
+    margin: 10px 0 30px;
+}
+
+#featured h2{
+    margin: 0 0 30px;
+    
+}
+
+#featured p {
+    font-size: 16px ;
+    margin: 0 0 30px;
+    line-height: 30px;
+
+}
+
+
+#featured a {
+    border-radius: 4px;
+    border: 1px solid white;
+    font-size: 14px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.bg{
+    
+    background: #261555;
+}
+#tree-colored{
+    background:url('./images/colored.png') bottom center no-repeat;
+    width: 45px;
+    height: 80px;
+    position: absolute;
+    left: 48.84%;
+    right: 48.03%;
+    margin-top: 40px;
+
+
+}
+#greekgrouts{
+    background:url('./images/With\ Greek\ Roots\ .png') bottom center no-repeat;
+    width: 255px;
+    height: 50px;
+    position: absolute;
+    left: 42.23%;
+    right: 39.3%;
+    margin-top: 140px;
+
+
+}
+ #texts h1 {    
+    position: absolute;
+    height: 50px;
+    left: 29.04%;
+    right: 28.84%;
+    margin-top: 222px;
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center; 
+    color: #BF0A30;
+
+}
+ #texts p {
+    position: absolute;
+    height: 40px;
+    left: 0%;
+    right: 0.86%;
+    margin-top: 312px ;
+    margin-bottom: 392px;
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #002868;
+    
+}
+#texts p1 {
+    position: absolute;
+    left: 0.86%;
+    right: 0%;
+    margin-top: 372px;
+    margin-bottom: 292px;
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color:#333333;
+    
+}
+#texts h2{
+    position: absolute;
+    height: 25px;
+    left: 0.86%;
+    right: 0%;
+    margin-top: 462px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+
+#texts p2{
+    position: absolute;
+    left: 0.86%;
+    right: 0%;
+    margin-top: 502px;
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color:#333333;
+    
+}
+
+#texts h3 {    
+    position: absolute;
+    height: 20px;
+    left: 67.37%;
+    right: 1.05%;
+    margin-top: 312px;
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #002868;
+    ;
+
+}
+
+#actions {
+    position: absolute;
+    color: #333333;
+    margin-top: 372px;
+    height: 25px;
+    left: 67.37%;
+    right: 0%;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+}
+#texts h4{
+    position: absolute;
+    height: 20px;
+    left: 45.09%;
+    right: 33.86%;
+    margin-top: 590px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #BF0A30;
+}
+#texts h5{
+    position: absolute;
+    height: 43px;
+    left: 38%;
+    right: 33.86%;
+    margin-top: 612px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 43px;
+    color: #002868;
+}
+#texts h6{
+    position: absolute;
+    height: 20px;
+    left: 46.49%;
+    right: 39.55%;
+    margin-top: 664px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #002868;
+}
+.bg{
+    background:url('./images/colored-tree.png') bottom center no-repeat ;
+    background-size: cover;
+    height: 1200px;
+    width: 1200px;
+    margin-left: 450px;
+    margin-top: 10px;
+   
+    
+
+}
+.activities{
+    margin: 0%;
+    background: #002868;
+    height: 650px;
+}
+
+#greek{
+    background:url('./images/greek.png') bottom center no-repeat;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 48.84%;
+    right: 43.26%;
+    margin-top: 40px;
+
+}
+
+#title h1{
+    position: absolute;
+    height: 15px;
+    left: 0.84%;
+    right: 0.84%;
+    margin-top: 74px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+
+    
+}
+#input1{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 100px;
+    margin-top: 150px;
+
+}
+#input2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 420px;
+    margin-top: 150px;
+}
+
+#input3{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 740px;
+    margin-top: 150px;
+
+}
+
+#input4{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 1060px;
+    margin-top: 150px;
+
+}
+#title h2{
+    position: absolute;
+    height: 60px;
+    left: 100px; ;
+    right: 1060px;
+    margin-top: 360px ;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+#title p1{
+    position: absolute;
+    height: 60px;
+    left: 100px; ;
+    right: 1060px;
+    margin-top: 430px ;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+#title p2{
+    position: absolute;
+    height: 60px;
+    left: 420px; ;
+    margin-top: 430px ;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}#title p3{
+    position: absolute;
+    height: 60px;
+    left: 740px; ;
+    margin-top: 430px ;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+#title p4{
+    position: absolute;
+    height: 60px;
+    left: 1060px; ;
+    margin-top: 430px ;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+#title h3{
+    position: absolute;
+    height: 60px;
+    left: 420px; ;
+    margin-top: 360px ;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+#title h4{
+    position: absolute;
+    height: 60px;
+    left: 740px; ;
+    margin-top: 360px ;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+#title h5{
+    position: absolute;
+    height: 60px;
+    left: 1060px; ;
+    margin-top: 360px ;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+} 
+.button{
+    background: #BF0A30;
+    position: absolute;
+    height: 18px;
+    left: 860px;;
+    right: 0.84%;
+    margin-top: 580px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+}
+.button1{
+    width: 200px;
+    height: 50px;
+    left: 860px;
+    color: #FFFFFF;
+    border-radius: 4px;
+
+}
+input[type=text], textarea   {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #BF0A30;
+    color: white;
+    width: 240px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 350px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
+
+
+  
+  input[type=submit]:hover {
+    background-color: #002868;
+    cursor: pointer;
+  }
+  
+  .container1 {
+    width: 620px;
+    height: 500px;  
+    margin-top: 80px ;  
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 420px;
+    margin-right: 420px;
+    font-family: 'SourceSansPro';
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  h6{
+    position: absolute;
+    height: 15px;
+    left: 48%;
+    right: 4372%;
+    margin-top: 60px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #002868;
+
+  }
+
+  footer{
+    background: #002868;
+    background-size: cover;
+    height: 750px;
+}
+
+#logo1{
+    position: absolute;
+    display: block;
+    border: 10px solid #FFFFFF;
+    border-radius: 100%;
+    left: 680px;
+    margin-top: 150px;
+    transform: translateY(-50%);
+  
+   
+    
+}
+
+
+
+/* Pan Arcadian Federation of America */
+#last h7 {
+position: absolute;
+left: 650px;
+margin-top: 270px;
+color: #FFFFFF;
+width: 261px;
+height: 14px;
+
+
+}
+#last h8{
+    position: absolute;
+    width: 100px;
+    height: 5.12px;
+    color: #FFFFFF;
+    left: 700px;
+    margin-top: 290px;
+    font-size: 8px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 2px;
+    border-radius: 50%;
+    height: 20px;
+  }
+
+  .fa-facebook {
+    background: #FFFFFF;
+    color: #002868;
+    margin-left: 600px;
+    margin-top: 320px;
+
+  }
+
+  .fa-twitter {
+    background: #FFFFFF;
+    color: #002868;
+  }
+
+  .fa-linkedin {
+    background: #FFFFFF;
+    color: #002868;
+  }
+
+  .fa-instagram {
+    background: #FFFFFF;
+    color: #002868;
+  }
+
+  .fa-youtube {
+    background: #FFFFFF;
+    color: #002868
+  }
+  #bottom-menu{
+    margin: 10px;
+    padding: 0 40 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    height: 60px;
+    
+}
+
+
+
+  #bottom-menu a {
+    color: #FFFFFF ;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#bottom-menu a:hover{
+    color: #BF0A30;
+}
+
+#last h9{
+
+    width: 250px;
+    height: 18px;
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    vertical-align: top;
+    fill: solid #FFFFFF;
+    color: #FFFFFF;
+    margin-left: 650px;
+
+}
