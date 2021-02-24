@@ -1,1 +1,202 @@
 
+<html>
+<head>
+    <link href="app.css" rel="stylesheet" />
+</head>
+    <body>
+        <header >
+
+            <div class="container">
+            <div id ="topbar">
+                <h21>ΑΡΚΑΔΙΑ</h21>
+                <h22>13:28</h22>
+                <!--Todo:Implement tobar-->
+            </div>
+            <nav id="main">
+                <a href="/" id="logo"><img src="logo.svg" alt="Logo"></a>
+                <ul id="main-menu">    
+                    <li><a href="#">Η ΑΠΟΣΤΟΛΗ</a><ul>
+
+                    <li><a href="#">Ιστορία</a></li>
+                    <li><a href="#">Διοικητικό Συμβούλιο</a></li>
+                    <li><a href="#">Πρόεδρος - Βιογραφικό Σημείωμα</a></li>
+                    <li><a href="#">Μήνυμα Προέδρου</a></li>
+                    <li><a href="#">Districts</a></li>
+                    <li><a href="#">Διατελεσαντες Προέδροι</a></li>
+                    <li><a href="#">Αποστολή - Αξίες</a></li>
+                    <li><a href="#">Πορεία - Εξέλιξη</a></li>
+                    <li><a href="#">Ο Έλληνας πρέσβης στην Ουάσιγκτον</a></li>
+                    <li><a href="#">Ο Πρέσβης ΗΠΑ στην Αθήνα</a></li>
+                    <li><a href="#">Ο Οικουμενικός Πατριάρχης</a></li>
+                    <li><a href="#">Ο Αρχιεπίσκοπος Αμερικής</a></li>
+
+                    </ul>
+                    </li>
+
+
+                   
+                    <li><a href="#">ΑΡΚΑΔΩΝ ΕΡΓΑ</a></li>
+                    <li><a href="#">ΕΠΩΝΥΜΟΙ ΑΡΚΑΔΕΣ</a></li>
+                    <li><a href="#">ΝΕΑ - ΕΝΗΜΕΡΩΣΗ</a></li>
+                    <li><a href="#">ΕΠΙΣΚΕΨΗ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li>
+                    <li><a href="#">ΑΝΑΖΗΤΗΣΕΙΣ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li>
+                    <li><a href="#">Η ΟΜΟΣΠΟΝΔΙΑ</a></li>
+                    
+                </ul>
+            </div>
+            </nav>
+
+            <div id="featured">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2214 0.000107481V8.7293H19.5107V4.48616H17.4535V6.60773H15.2786V2.12168H21.9428V10.9392H2.05716V2.12168H8.7215V6.60773H6.54647V4.48616H4.4893V8.7293H10.7786V0.000107481H0V10.9392V13.0608V24H10.7786V15.2708H4.4893V19.5137H6.54647V17.3922H8.7215V21.8784H2.05716V13.0608H21.9428V21.8784H15.2786V17.3922H17.4535V19.5137H19.5107V15.2708H13.2214V24H24V0.000107481H13.2214Z" fill="white"/>
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2214 0.000107481V8.7293H19.5107V4.48616H17.4535V6.60773H15.2786V2.12168H21.9428V10.9392H2.05716V2.12168H8.7215V6.60773H6.54647V4.48616H4.4893V8.7293H10.7786V0.000107481H0V10.9392V13.0608V24H10.7786V15.2708H4.4893V19.5137H6.54647V17.3922H8.7215V21.8784H2.05716V13.0608H21.9428V21.8784H15.2786V17.3922H17.4535V19.5137H19.5107V15.2708H13.2214V24H24V0.000107481H13.2214Z" fill="white"/>
+                    </mask>
+                    <g mask="url(#mask0)">
+                    <rect width="24" height="24" fill="white"/>
+                    </g>
+                    </svg>
+                    
+                <h3>ΚΑΛΩΣ ΗΛΘΑΤΕ</h3>
+                
+                <h2>Η αποστολή μας</h2>
+                <p>
+                    Ο Παναρκαδικής Ομοσπονδίας Αμερικής είναι μια πανεθνική μη κερδοσκοπικού αδελφό ελληνικό-αμερικανική οργάνωση τα μέλη της οποίας κατεβαίνουν από την περιοχή της Αρκαδίας στην Πελοπόννησο, στη νότια Ελλάδα …
+                </p>
+                <a href="#">ΠΕΡΙΣΣΟΤΕΡΑ</a>
+
+            </div>
+            
+ 
+       </div>
+   </header>
+    <div class="bg">
+         <div id="tree-colored">
+
+                </div>
+        <div id="greekgrouts">
+
+        </div>
+        <div id="texts">
+                <h1>Μετριόμαστε, γιατί μετράμε!</h1>
+               
+                <p>Γενική απογραφή  των αποδήμων Αρκάδων στις ΗΠΑ και
+                 επαναπατρισθέντων από τις ΗΠΑ</p>
+                <p1>Η Παναρκαδική Ομοσπονδία Αμερικής πραγματοποιεί απογραφή<br>
+                    των Αρκάδων που διαμένουν και εργάζονται στις ΗΠΑ, (ανεξαρτήτως<br>
+                    υπηκότητας). </p1>
+                <h2>Το αποτύπωμα της Αρκαδικής γης μας συνδέει!</h2>
+                <p2>Όση χιλιομετρική απόσταση και αν μας χωρίζει, όσες γενιές και να <br>
+                    έχουμε...ψηλώσει πέρα απο τις ρίζες μας, η Αρκαδία, μας ενώνει!</p2>
+                <h3>Απογραφόμαστε...</h3>
+
+                <ul id="actions">
+                <li>Για να γνωρίσουμε ο ένας τον άλλο.</a></li>
+                <li>Για να αντλήσουμε δύναμη απο  τις ρίζες μας και την καταγωγή μας.</li>
+                <li>Για να είμαστε χρήσιμοι και να  παρεμβαίνουμε δημιουργικά για τις <br> ΗΠΑ την Ελλάδα και την Αρκαδία.</li>
+                <li>Για να υλοποιήσουμε τα σχέδια και τα οραματά μας.</li>
+                <li>Για να είμαστε ισχυροί.</li>
+            </ul>
+                <h4>ΤΕΛΕΤΗ ΕΝΑΡΞΗΣ</h4>
+                <h5>Παρασκευή 20 Απριλίου 2108</h5>
+                <h6>ΝΕΑ ΥΟΡΚΗ</h6>
+
+        </div>
+     
+    </div>
+    <div id class="activities">
+       <div id="greek"></div>
+       <div id="title">
+           <h1>ΕΡΓΑ & ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ</h1>
+           <h2>Γενικού Παναρκαδικό <br> Νοσοκομείο Τρίπολης</h2>
+           <p1>Lorem ipsum dolor sit amet, consectetur <br> 
+            adipiscing elit, sed do eiusmod tempor <br> 
+            incididunt ut labore et dolor.</p1>
+            <h3>Ο  παραδοσιακός οικισμός <br> του Λεωνιδίου</h3>
+            <p2>Lorem ipsum dolor sit amet, consectetur <br> 
+                adipiscing elit, sed do eiusmod tempor <br> 
+                incididunt ut labore et dolor.</p2>
+            <h4>Κυνουρία, Εκεί που <br> δεσπόζει ο Πάρνωνας</h4>  
+            <p3>Lorem ipsum dolor sit amet, consectetur <br> 
+                adipiscing elit, sed do eiusmod tempor <br> 
+                incididunt ut labore et dolor.</p3>  
+            <h5>Οι ελληνικές πόλεις με τα <br> καλύτερα πάρκα!</h5>   
+            <p4>Lorem ipsum dolor sit amet, consectetur <br> 
+                adipiscing elit, sed do eiusmod tempor <br> 
+                incididunt ut labore et dolor.</p4> 
+
+
+
+
+
+        </div> 
+        <a href="/" id="input1"><img src='./images/photo1.png' alt="Logo"></a>
+        <a href="/" id="input2"><img src='./images/photo2.png' alt="Logo"></a>
+        <a href="/" id="input3"><img src='./images/photo3.png' alt="Logo"></a>
+        <a href="/" id="input4"><img src='./images/photo4.png' alt="Logo"></a>
+        <button class="button button1">ΠΕΡΙΣΣΟΤΕΡΑ ></i></button>
+        
+
+</div>
+
+  
+  <h6>ΕΠΙΚΟΙΝΩΝΙΑ</h6>
+  
+  <div class="container1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <form action="/action_page.php">
+      <label for="name">Ονοματεπώνυμο</label>
+      <input type="text" id="fname" name="firstname" >
+  
+      <label for="phone">Τηλέφωνο</label>
+      <input type="text" id="phone" name="phone" placeholder="&#xf095" >
+  
+      <label for="email">Email</label>
+      <input type="text" id="email" name="Email" placeholder="&#xf4ad" >
+      
+      <label for="subject">Μήνυμα</label>
+      <textarea id="subject" name="subject" ></textarea>
+  
+      <input type="submit" value="ΑΠΟΣΤΟΛΗ   >">
+    </form>
+  </div>
+  
+
+ 
+<footer>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <a href="/" id="logo1"><img src="logo.svg" alt="Logo"></a>
+    <div id="last">
+    <h7>Pan Arcadian Federation of America</h7>
+    <h8>FOUNDED IN NEW YORK 1931</h8>\
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-youtube"></a>
+
+    <ul id="bottom-menu">
+        <li><a href="#">Η ΟΜΟΣΠΟΝΔΙΑ</a></li>
+        <li><a href="#">ΑΡΚΑΔΩΝ ΕΡΓΑ</a></li>
+        <li><a href="#">ΕΠΩΝΥΜΟΙ ΑΡΚΑΔΕΣ</a></li>
+        <li><a href="#">ΝΕΑ - ΕΝΗΜΕΡΩΣΗ</a></li>
+        <li><a href="#">ΕΠΙΣΚΕΨΗ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li>
+        <li><a href="#">ΑΝΑΖΗΤΗΣΕΙΣ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li>
+        <li><a href="#">Η ΟΜΟΣΠΟΝΔΙΑ</a></li>
+        
+    </ul>
+    <h9>©2018 Pan Arcadian Federation of America</h9>
+
+
+
+</div>
+</footer>
+</body>
+
+
+
+</html>
